@@ -1,0 +1,403 @@
+/*
+* @Author: Zichen Gao
+* @Date:   2018-08-09 10:42:20
+* @Last Modified by:   Zichen Gao
+* @Last Modified time: 2018-08-15 15:36:31
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	background-color: #f4f4f4;
+	overflow: hidden;
+}
+.top{
+	width: 7.5rem;
+	height: 3.69rem;
+	background-color: #ff8226;
+	padding-top: 0.17rem;
+	/* position: fixed; */
+}
+.top ul{
+	width: 7.02rem;
+	height: 3.55rem;
+	margin: 0 auto;
+}
+.top ul .first{
+	width: 7.02rem;
+	height: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+.top ul .first .icon-arrow-left-copy-copy-copy{
+	width: 0.4rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: white;
+}
+.top ul .first .right{
+	width: 1.53rem;
+	height: 100%;
+	/* background-color: pink; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 0.1rem;
+}
+.top ul .first .right .icon-sousuo{
+	width: 0.57rem;
+	font-weight: bold;
+	color: white;
+}
+.top ul .first .right .icon-fenxiang{
+	/* width: 0.57rem; */
+	font-weight: bold;
+	color: white;
+}
+.top ul .first .right .icon-gengduo2{
+	/* width: 0.57rem; */
+	font-weight: bold;
+	color: white;
+}
+.top ul .ricehome{
+	width: 1.78rem;
+	height: 1.58rem;
+	margin-top: -0.24rem;
+	margin-left: 2.63rem;
+	/*background-color: green;*/
+}
+.top ul .ricehome img{
+	width: 100%;
+	height: 100%;
+}
+.top ul .title{
+	width: 1.72rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	/* background-color: red; */
+	color: white;
+	font-size: 0.34rem;
+	padding-left: 0.1rem;
+    margin-top: 0.1rem;
+    font-weight: bold;
+}
+.top ul .title-two{
+	font-size: 0.2rem;
+	margin-left: 2rem;
+	margin-top: 0.1rem;
+	color: white;
+}
+.top ul .title-three{
+	width: 3.82rem;
+	height: 0.36rem;
+	margin-left: 1.61rem;
+	margin-top: 0.08rem;
+	/* background-color: green; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.top ul .title-three .manjian{
+	width: 0.8rem;
+	height: 0.32rem;
+	background-color: red;
+	border-radius: 0.16rem;
+	color: white;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.32rem;
+}
+.top ul .title-three .text{
+	font-size: 0.2rem;
+	color: white;
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	white-space:nowrap;
+}
+.top ul .title-four{
+	/*width: 2.5rem;*/
+	height: 0.21rem;
+	margin-left: 2.3rem;
+	font-size: 0.1rem;
+	color: white;
+}
+.top-two{
+	width: 7.5rem;
+	height: 0.56rem;
+	background-color: #ea7823;
+	box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.1);
+	padding-top: 0.12rem;
+}
+.top-two .container{
+	width: 5.4rem;
+	height: 0.38rem;
+	margin-left: 1.32rem;
+	/* margin-top: 0.12rem; */
+	/* background-color: red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.top-two .container .icon-lingxing{
+	color: #f2f2f2;
+}
+.top-two .container .text{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: white;
+}
+.choose {
+	width: 7.5rem;
+	height: 0.82rem;
+	background-color: #e6dd31;
+	margin-top: 0.1rem;
+	padding-top: 0.2rem;
+}
+.choose ul{
+	width: 6.17rem;
+	height: 0.48rem;
+	margin:0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.choose ul li{
+	width: 1.3rem;
+	height: 100%;
+	border: 0.06rem solid #ff8529;
+	color: black;
+	border-radius: 0.24rem;
+	font-size: 0.3rem;
+	text-align: center;
+	/*line-height: 0.48rem;*/
+}
+.choose ul .over{
+	background-color: #ff8529;
+	color: white;
+}
+.left-box{
+	width: 1.09rem;
+	height: 3.78rem;
+	/* background-color: red; */
+	float: left;
+}
+.left-box ul{
+	width: 0.78rem;
+	height: 3.16rem;
+	margin-left: 0.1rem;
+	margin-top: 0.3rem;
+}
+.left-box ul li{
+	width: 0.87rem;
+	height: 0.52rem;
+	border-radius: 0.26rem;
+	border: 0.01rem solid #ff862a;
+	margin-bottom: 0.2rem;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.52rem;
+}
+.left-box ul .on{
+	background-color: #ff862a;
+	color: white;
+}
+.right-box{
+	width: 6.4rem;
+	height: 100%;
+	background-color: #f2f2f2;
+	float: right;
+	/* padding-right: 0; */
+}
+.right-box .topy{
+	width: 6.24rem;
+	height: 0.52rem;
+	background-color: white;
+	margin-left: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	padding-top: 0.14rem;
+	/* color: white; */
+
+}
+.right-box .topy .topy-left{
+	width: 0.9rem;
+	height: 0.38rem;
+	font-weight: bold;
+	font-size: 0.4rem;
+	margin-top: -0.08rem;
+}
+.right-box .topy .topy-right{
+	font-size: 0.3rem;
+	text-align: center;
+	margin-left: 0.2rem;
+}
+.right-box .center{
+	width: calc(100%);
+	height: calc(100% - 6.8rem);
+	/* background-color: pink; */
+	overflow: scroll;
+	/* margin-bottom: 3rem; */
+}
+.right-box .center ul{
+	overflow: hidden;
+ 	box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.1);
+ 	margin-bottom: 0.2rem;
+
+}
+.right-box .center ul li{
+	width: 6.4rem;
+	height: 1.68rem;
+	/* background-color: pink; */
+	/* border: 0.03rem solid black; */
+	margin-bottom: 0.05rem;
+	padding-top: 0.22rem;
+}
+.right-box .center ul .brick-one .container{
+	width: 5.35rem;
+	height: 1.34rem;
+	margin-left: 0.38rem;
+	/* background-color: red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.right-box .center ul .brick-one .container .left{
+	width: 1.8rem;
+	height: 1.8rem;
+	margin-top: -0.2rem;
+    margin-left: -0.1rem;
+	/* background-color: green; */
+}
+.right-box .center ul .brick-one .container .left img{
+	width: 100%;
+	height: 100%;
+}
+.right-box .center ul .brick-one .container .right{
+	width: 3.51rem;
+	height: 1.4rem;
+	/* background-color: yellow; */
+}
+.right-box .center ul .brick-one .container .right .title-one{
+	width: 3.51rem;
+	/*height: 0.3rem;*/
+	/* background-color: pink; */
+	display: flex;
+	flex-direction: row;
+}
+.right-box .center ul .brick-one .container .right .title-one .lefty{
+	width: 2.34rem;
+	height: 100%;
+	font-size: 0.3rem;
+	font-weight: bold;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+.right-box .center ul .brick-one .container .right .title-one .icon-wujiaoxing{
+	font-size: 0.12rem;
+	color: #eb6100;
+}
+.right-box .center ul .brick-one .container .right .title-two{
+	/* width: 1.53rem; */
+	height: 0.41rem;
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+	color: #656565;
+}
+.right-box .center ul .brick-one .container .right span{
+	display: block;
+	width: 1rem;
+	height: 0.33rem;
+	font-size: 0.24rem;
+	color: #656565;
+}
+.right-box .center ul .brick-one .container .money{
+	width: 0.9rem;
+	height: 0.35rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin-left: 0.9rem;
+    margin-top: -0.2rem;
+    color: red;
+}
+.right-box .center ul .brick-one .container .icon-jiahao{
+	width: 0.36rem;
+	height: 0.41rem;
+	font-size: 0.4rem;
+	margin-left: 2.8rem;
+	margin-top: -0.3rem;
+	color: #ff8124;
+}
+footer{
+	width: 7.5rem;
+	height: 0.71rem;
+	background-color: #f4f4f4; 
+	border: 0 -0.15rem 0.3rem rgba(0, 0, 0, 0.1);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-shadow: 0 -0.15rem 0.3rem rgba(0, 0, 0, 0.1);
+	/* position: relative; */
+}
+footer .icon-gouwuchekong{
+	width: 0.69rem;
+	height: 0.69rem;
+	position: absolute;
+	left: 0.24rem;
+	bottom: 0.25rem;
+	font-size: 0.8rem;
+}
+footer .wenzi{
+	width: 1.3rem;
+	height: 0.48rem;
+	/* background-color: green; */
+	margin-left: 1.4rem;
+    margin-top: 0.1rem;
+}
+footer .wenzi .wenzi-one{
+	width: 1.8rem;
+	height: 0.25rem;
+	font-size: 0.24rem;
+	color: #afafaf;
+}
+footer .wenzi .wenzi-two{
+	width: 1.8rem;
+	height: 0.29rem;
+	font-size: 0.24rem;
+	color: #afafaf;
+	margin-top: 0.02rem;
+}
+footer .jiezhang{
+	width: 1.5rem;
+	height: 0.45rem;
+	background-color: #ec6941;
+	color: white;
+	margin-top: -0.5rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.45rem;
+	margin-left: 5.6rem;
+	border-radius: 0.3rem;
+
+}
+
+/* 超出部分显示省略号
+overflow:scroll;
+overflow属性规定当内容溢出元素框时发生的事情
+hidden：隐藏	
+scrool：出现滚动条 */

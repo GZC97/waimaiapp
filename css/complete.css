@@ -1,0 +1,191 @@
+/*
+* @Author: Zichen Gao
+* @Date:   2018-08-14 15:09:56
+* @Last Modified by:   Zichen Gao
+* @Last Modified time: 2018-08-15 16:16:40
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background-color: #ff8124;
+	padding-top: 0.17rem;
+	position: fixed;
+	top: 0;
+    z-index: 1;
+}
+
+header .container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+header .container .icon-arrow-left-copy-copy-copy{
+	width: 0.4rem;
+    height: 100%;
+    font-size: 0.4rem;
+    color: white;
+}
+header .container .title{
+	font-size: 0.4rem;
+	color: #ffad7f;
+	margin-left: 1.58rem;
+	margin-top: 0.16rem;
+}
+header .container .text{
+	font-size: 0.5rem;
+	position: absolute;
+	left: 2.64rem;
+	color: white;
+}
+.top{
+	width: 7.02rem;
+	height: 2.62rem;
+	margin: 0 auto;
+	margin-top: 1.2rem;
+	border: 0.1rem solid #ff8124;
+	border-radius: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* text-align: center; */
+	padding-top: 0.36rem;
+}
+.top .pic{
+	width: 1.76rem;
+	height: 1.72rem;
+	background-image: url('../img/photo3.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.top .text{
+	width: 3.16rem;
+	height: 1.48rem;
+	/* background-color: red; */
+	margin-top: 0.2rem;
+}
+.top .text .brickone .hang1{
+	font-size: 0.22rem;
+	font-weight: bold;
+	/* text-align: center; */
+}
+.top .text .brickone .hang2{
+	font-size: 0.18rem;
+	/* font-weight: bold; */
+	/* text-align: center; */
+}
+.top .text .bricktwo{
+	margin-top: 0.3rem;
+}
+.top .text .bricktwo .hang3{
+	font-size: 0.22rem;
+	font-weight: bold;
+}
+.top .text .bricktwo .hang4{
+	font-size: 0.18rem;
+	/* font-weight: bold; */
+}
+.top .text .bricktwo .icon-kuaidi{
+	margin-top: -0.3rem;
+	margin-left: 3rem;
+}
+.box{
+	/* margin: 0 auto; */
+	margin-top: 1rem;
+	margin-left: 2.4rem;
+	position: relative;
+}
+.box .title{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: #dddddd;
+}
+.box .text{
+	font-size: 0.36rem;
+	font-weight: bold;
+	position: absolute;
+	top: -0.18rem;
+	left: 0.6rem;
+}
+.button{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.54rem;
+	padding-left: 1.12rem;
+}
+.button .left{
+	width: 1.8rem;
+	height: 0.64rem;
+	text-align: center;
+	font-size: 0.28rem;
+	line-height: 0.64rem;
+	background-color: #ff8124;
+	border-radius: 0.1rem;
+	color: white;
+	margin-right: 1.5rem;
+}
+.button .right{
+	width: 1.8rem;
+	height: 0.64rem;
+	text-align: center;
+	font-size: 0.28rem;
+	line-height: 0.64rem;
+	background-color: #ff8124;
+	border-radius: 0.1rem;
+	color: white;
+}
+.line{
+	width: 7.02rem;
+	height: 0.02rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+	margin: 0 auto;
+	margin-top: 0.36rem;
+}
+.recommend{
+	margin-top: 0.56rem;
+	margin-left: 0.76rem;
+}
+.recommend .english{
+	font-size: 0.22rem;
+	color: #dddddd;
+	margin-top: -0.16rem;
+}
+.recommend .chinese{
+	font-size: 0.28rem;
+	font-weight: bold;
+}
+.adv{
+	width: 6.42rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.adv .lp{
+	width: 3rem;
+	height: 3.42rem;
+	background-image: url('../img/adv.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.adv .rp{
+	width: 3rem;
+	height: 3.42rem;
+	background-image: url('../img/adv2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+

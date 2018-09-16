@@ -1,0 +1,38 @@
+/*
+* @Author: Zichen Gao
+* @Date:   2018-08-16 11:16:19
+* @Last Modified by:   Zichen Gao
+* @Last Modified time: 2018-08-16 22:43:08
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/我的订单.jpg');
+	background-size: cover;
+	background-position: 0 -0.3rem;
+	background-repeat: no-repeat;
+}
+header .shouye{
+	width: 0.7rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 0.06rem;
+}
+header .wode{
+	width: 0.7rem;
+	height: 1rem;
+	position: absolute;
+	left: 5.8rem;
+	bottom: 0.06rem;
+	/* background-color: red; */
+}

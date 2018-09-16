@@ -1,0 +1,245 @@
+/*
+* @Author: Zichen Gao
+* @Date:   2018-08-14 08:33:34
+* @Last Modified by:   Zichen Gao
+* @Last Modified time: 2018-08-15 16:12:50
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 7.5rem;
+	height: 4rem;
+	background-color: #ff8124;
+	padding-top: 0.17rem;
+}
+.dot{
+	width: 7.5rem;
+	height: 0.1rem;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+}
+.dot .icon-dian{
+	width: 0.1rem;
+	height: 0.1rem;
+	font-size: 0.12rem;
+	color: white;
+	margin-top: -0.12rem;
+}
+header .container{
+	width: 7.02rem;
+	height: 5.8rem;
+	margin: 0 auto;
+	/* background-color: red; */
+}
+header .container .icon-arrow-left-copy-copy-copy{
+	width: 0.4rem;
+    /* height: 100%; */
+    font-size: 0.4rem;
+    color: white;
+    margin-bottom: 0.26rem;
+}
+header .container .top{
+	width: 2.16rem;
+	height: 0.34rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 0.22rem;
+}
+header .container .top .top-one{
+	font-size: 0.2rem;
+	color: white;
+	font-weight: bold;
+}
+header .container .top .top-two{
+	width: 0.8rem;
+	height: 0.36rem;
+	border: 0.02rem solid white;
+	border-radius: 0.2rem;
+	color: white;
+	font-size: 0.18rem;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.36rem;
+	margin-top: -0.1rem;
+    margin-left: 0.02rem;
+}
+header .container .address{
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: white;
+	margin-top: 0.12rem;
+	margin-left: 0.22rem;
+}
+header .container .num{
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: white;
+	margin-top: 0.12rem;
+	margin-left: 0.22rem;
+}
+header .container .box{
+	width: 6.78rem;
+	height: 2.1rem;
+	border-radius: 0.2rem;
+	background-color: white;
+	margin-left: 0.22rem;
+	margin-top: 0.38rem;
+	padding-top: 0.35rem;
+	box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.1)
+}
+header .container .box .time{
+	width: 5.86rem;
+	height: 0.7rem;
+	/* margin: 0 auto; */
+	margin-left: 0.37rem;
+	/* background-color: red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header .container .box .time .time-one{
+	/* width: 1.22rem; */
+	height: 0.7rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.7rem;
+	color: black;
+}
+header .container .box .time .time-two{
+	height: 0.7rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #ff8124;
+}
+header .container .box .arrive{
+	font-size: 0.2rem;
+	/* margin-top: 0.2rem; */
+	margin-left: 0.37rem;
+	color: #ff8124;
+}
+header .container .box .payment{
+	width: 4.96rem;
+	/* height: 3.96rem; */
+	margin-left: 0.37rem;
+	margin-top: 0.34rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header .container .box .payment .payment-one{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: black;
+}
+header .container .box .payment .payment-two{
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #ff8124;
+}
+main{
+	width: 6.5rem;
+	height: 5.28rem;
+	margin-left: 0.7rem;
+	margin-top: 0.8rem;
+	/* background-color: pink; */
+}
+main .container{
+	width: 100%;
+	height: 100%;
+}
+main .container .title{
+	margin-left: 2.1rem;
+	font-size: 0.32rem;
+}
+main .space{
+	/* font-size: 0.01rem; */
+	margin-top: 0.1rem;
+	display: flex;
+	flex-direction: row;
+}
+main .space .icon-dian{
+	font-size: 0.01rem;
+	color: #e5e5e5;
+}
+.zhanghu{
+	width: 6.5rem;
+	/* height: 0.8rem; */
+	background-color: #ff8124;
+	border-radius: 0.39rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.38rem; 
+
+}
+.zhanghu .icon-zhanghuyue{
+	font-size: 0.8rem;
+	color: red;
+}
+.zhanghu .name{
+	font-size: 0.4rem;
+	margin-top: 0.28rem;
+	margin-left: 0.3rem;
+	color: white;
+}
+.line{
+	width: 4.66rem;
+	height: 0.02rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+	margin: 0 auto;
+	margin-top: 0.08rem;
+}
+.weichat{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.38rem; 
+}
+.weichat .icon-weixin{
+	font-size: 0.8rem;
+	color: #50b674;
+}
+.weichat .wei{
+	font-size: 0.4rem;
+	margin-top: 0.28rem;
+	margin-left: 0.3rem;
+}
+.zhifupay{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.38rem; 
+}
+.zhifupay .icon-zhifubao{
+	font-size: 0.8rem;
+	color: #3aa5f2;
+}
+.zhifupay .zhi{
+	font-size: 0.4rem;
+	margin-top: 0.28rem;
+	margin-left: 0.3rem;
+}
+.card{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.38rem; 
+}
+.card .icon-yinhangqia{
+	font-size: 0.8rem;
+	color: #2f77f1;
+}
+.card .cd{
+	font-size: 0.4rem;
+	margin-top: 0.28rem;
+	margin-left: 0.3rem;
+}

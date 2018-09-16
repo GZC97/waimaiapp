@@ -1,0 +1,203 @@
+/*
+* @Author: Zichen Gao
+* @Date:   2018-08-14 20:39:07
+* @Last Modified by:   Zichen Gao
+* @Last Modified time: 2018-08-15 17:31:42
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0.17rem;
+	padding-left: 0.24rem;
+	position: relative;
+}
+header .icon-arrow-left-copy-copy-copy{
+	font-size: 0.48rem;
+	color: white;
+}
+header .white{
+	width: 6.5rem;
+	height: 9.04rem;
+	border-radius: 0.4rem;
+	margin: 0 auto;
+	margin-top: 1.84rem;
+	background-color: #fd9b1d;
+	/* position: absolute;
+	top: ; */
+}
+header .yellow{
+	width: 6.5rem;
+    height: 9.04rem;
+    border-radius: 0.4rem;
+    margin: 0 auto;
+    margin-top: 1.84rem;
+    background-color: #fdeb1d;
+    position: absolute;
+    top: 0.54rem;
+    left: 0.62rem;
+}
+header .orange{
+	width: 6.5rem;
+    height: 9.04rem;
+    border-radius: 0.4rem;
+    margin: 0 auto;
+    margin-top: 1.84rem;
+    background-color:#f2f2f2 ;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.62rem;
+}
+header .orange .pic{
+	width: 100%;
+	height: 2.7rem;
+	background-image: url('../img/top.jpg');
+	background-repeat: no-repeat;
+	background-position: -157px -4rem;
+}
+header .orange .regist{
+	width: 1rem;
+	height: 0.38rem;
+	background-color: #ff8124;
+	border-radius: 0.19rem;
+	color: white;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.38rem;
+	margin-top: -2.5rem;
+	margin-left: 5rem;
+}
+header .orange .touxiang{
+	width: 2.02rem;
+	height: 2.02rem;
+	border-radius: 50%;
+	background-color: #ff8124;
+	margin: 0 auto;
+	margin-top: 0.8rem;
+	background-image: url('../img/1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0.15rem 0.15rem 0.3rem rgba(244, 231, 202, 0.4);
+	border: 0.12rem solid #f4e7ca;
+}
+header .orange .user{
+    width: 4.8rem;
+    height: 1.08rem;
+    border-radius: 0.54rem;
+    border: 0.02rem solid #c4c4c4;
+    margin-top: 0.52rem;
+    margin-left: 0.68rem;
+    background-color: #f2f2f2;
+    /* outline: none; */
+    padding-top: 0.2rem;
+    padding-right: 0.2rem;
+    position: relative;
+}
+header .orange .user .icon-geren{
+	font-size: 0.6rem;
+    margin-left: 0.4rem;
+}
+header .orange .user .username{
+    float: right;
+    margin-left: 0.8rem;
+    height: 80%;
+    margin-top: -0.7rem;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+header .orange .user .wenzi{
+	width: 1.36rem;
+	height: 0.26rem;
+	background-color: #f2f2f2;
+	font-size: 0.28rem;
+	position: absolute;
+	top: -0.2rem;
+	left: 1.12rem;
+}
+header .orange .pass{
+    width: 4.8rem;
+    height: 1.08rem;
+    border-radius: 0.54rem;
+    border: 0.02rem solid #c4c4c4;
+    margin-top: 0.52rem;
+    margin-left: 0.68rem;
+    background-color: #f2f2f2;
+    /* outline: none; */
+    padding-top: 0.2rem;
+    padding-right: 0.2rem;
+    position: relative;
+}
+header .orange .pass .icon-AAICon-{
+	font-size: 0.6rem;
+    margin-left: 0.4rem;
+}
+header .orange .pass .password{
+    float: right;
+    margin-left: 0.8rem;
+    height: 80%;
+    margin-top: -0.7rem;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+header .orange .pass .wenzo{
+	width: 1.36rem;
+	height: 0.26rem;
+	background-color: #f2f2f2;
+	font-size: 0.28rem;
+	position: absolute;
+	top: -0.2rem;
+	left: 1.12rem;
+}
+header .orange .forget{
+	font-size: 0.18rem;
+	margin-top: 0.22rem;
+	margin-left: 1.22rem;
+	color: #ff8124;
+}
+header .orange .logon{
+	width: 1.4rem;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.2rem;
+	background-color: #ff8124;
+	border-radius: 0.2rem;
+	margin-left: 4rem;
+	color: white;
+}
+header .orange .line{
+	width: 5.94rem;
+	height: 0.02rem;
+	border-bottom: 0.01rem solid #d2d2d2;
+	margin: 0 auto;
+	margin-top: 0.56rem;
+}
+header .orange .icon{
+	width: 3rem;
+	height: 0.62rem;
+	margin: 0 auto;
+	margin-top: 0.28rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .orange .icon .icon-qq{
+	color: red;
+	font-size: 0.46rem;
+}
+header .orange .icon .icon-weixin{
+	color: #50b674;
+	font-size: 0.46rem;
+}
