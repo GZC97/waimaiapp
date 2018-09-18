@@ -64,6 +64,7 @@ header input{
 	margin-top: 0.3rem;
 	border: none;
 	margin-right: 0.2rem;
+	outline:none;
 }
 input::-webkit-input-placeholder{
 	font-size: 0.24rem;
@@ -246,22 +247,31 @@ main ul li span{
 	background-image: url('../img/photo1.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position:  -0.1rem center;
+	/*background-position:  -0.1rem center;*/
 	float: left;
+	background-position: 50%;
 }
 .content .pic1{
 	 background-image: url('../img/photo5.PNG');
+	/*background-size: 80%;*/
+	background-position: 50%;
  }
 
 .content .pic2{
 	background-image: url('../img/photo3.png');
+	background-size: 80%;
+	background-position: 50%;
 }
 .content .pic3{
 	background-image: url('../img/photo4.png');
+	background-position: 50%;
+	background-size: 80%;
 }
 
 .content .pic4{
 	background-image: url('../img/photo2.png');
+	background-position: 50%;
+	background-size: 80%;
 }
 .content .right{
 	width: 4.62rem;
@@ -368,12 +378,12 @@ main ul li span{
 	width: 3rem;
 	height: 100%;
 	color: #B5B1B1;
-	font-size: 0.28rem;
+	font-size: 0.2rem;
 	margin-top: 0.5rem;
 	margin-left: 0.1rem;
 }
 .content .right .text-four .tejiathree{
-	width: 1.37rem;
+	/*width: 1.37rem;*/
 	height: 0.21rem;
 	display: flex;
 	flex-direction: row;

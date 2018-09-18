@@ -128,26 +128,26 @@ header .center .first h3 .line .black{
 }
 header .center .first .discount{
 	width: 0.64rem;
-	height: 0.36rem;
+	height: 0.38rem;
 	border: 0.04rem solid red;
 	color: red;
 	border-radius: 0.18rem;
 	margin-left: 0.36rem;
-	margin-top: -0.1rem;
+	/*margin-top: -0.1rem;*/
 	margin-right: 0.14rem;
 	text-align: center;
-	line-height: 0.36rem;
+	/*line-height: 0.36rem;*/
 	font-size: 0.18rem;
 }
 header .center .first .rush{
 	width: 1.12rem;
-	height: 0.36rem;
+	height: 0.38rem;
 	border: 0.04rem solid red;
 	color: red;
 	border-radius: 0.18rem;
-	margin-top: -0.1rem;
+	/*margin-top: -0.1rem;*/
 	text-align: center;
-	line-height: 0.36rem;
+	/*line-height: 0.36rem;*/
 	font-size: 0.18rem;
 }
 header .center .second{
@@ -263,6 +263,7 @@ header .center .choose .brick{
 	font-size: 0.18rem;
 	background-color: #ff8124;
 	color: white;
+	text-align: center;
 }
 main{
 	/* width: calc(100%); */
@@ -320,12 +321,13 @@ main .container .goods .dier{
 	color: #737373;
 }
 main .container .goods .seeall{
-	width: 1.14rem;
+	width: 1.24rem;
 	height: 0.38rem;
 	background-color: #ff8124;
 	border-radius: 0.19rem;
 	color: white;
 	font-size: 0.18rem;
+	text-align: center;
 }
 main .container .user{
 	width: 4.2rem;
